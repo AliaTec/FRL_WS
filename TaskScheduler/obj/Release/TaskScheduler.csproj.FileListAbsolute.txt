@@ -1,0 +1,10 @@
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\bin\Release\TaskScheduler.xml
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\bin\Release\TaskScheduler.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\obj\Release\ResolveAssemblyReference.cache
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\obj\Release\TaskScheduler.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\bin\Release\TaskScheduler.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Release\TaskScheduler.dll
+D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\TaskScheduler\bin\Release\TaskScheduler.dll
+D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\TaskScheduler\obj\Release\ResolveAssemblyReference.cache
+D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\TaskScheduler\obj\Release\TaskScheduler.dll

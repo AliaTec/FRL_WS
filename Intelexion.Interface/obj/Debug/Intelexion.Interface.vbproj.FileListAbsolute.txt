@@ -1,0 +1,33 @@
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Interface.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Interface.pdb
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Interface.xml
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Framework.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Framework.pdb
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Framework.xml
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\en-US\Intelexion.Framework.resources.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\es-MX\Intelexion.Framework.resources.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\pt-BR\Intelexion.Framework.resources.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\obj\Debug\ResolveAssemblyReference.cache
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\obj\Debug\Intelexion.Interface.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\obj\Debug\Intelexion.Interface.xml
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\obj\Debug\Intelexion.Interface.pdb
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Anthem.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Framework.XmlSerializers.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\bin\Intelexion.Interface.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\bin\Intelexion.Interface.pdb
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\bin\Intelexion.Interface.xml
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\bin\Intelexion.Framework.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\bin\Anthem.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\obj\Debug\ResolveAssemblyReference.cache
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.xml
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.pdb
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\bin\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\bin\Intelexion.Interface.pdb
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\bin\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\bin\Intelexion.Framework.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\bin\Anthem.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.pdb

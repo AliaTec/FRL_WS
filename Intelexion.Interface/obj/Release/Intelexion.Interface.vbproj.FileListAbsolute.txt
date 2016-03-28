@@ -1,0 +1,21 @@
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Interface.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Interface.xml
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Framework.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Framework.pdb
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\Intelexion.Framework.xml
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\en-US\Intelexion.Framework.resources.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\es-MX\Intelexion.Framework.resources.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\bin\pt-BR\Intelexion.Framework.resources.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\obj\Release\ResolveAssemblyReference.cache
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\obj\Release\Intelexion.Interface.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\Intelexion.Interface\obj\Release\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\FilesInterfaceManager\FilesInterfaceManager\trunk\bin\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\FilesInterfaceManager\FilesInterfaceManager\trunk\bin\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Release\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Release\Intelexion.Interface.xml
+D:\Proyectos\Intelexion\Friansa\FilesInterfaceManager\FilesInterfaceManager\trunk\bin\Intelexion.Interface.dll
+D:\Proyectos\Intelexion\Friansa\FilesInterfaceManager\FilesInterfaceManager\trunk\bin\Intelexion.Interface.xml
+D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\Intelexion.Interface\obj\Release\ResolveAssemblyReference.cache
+D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\Intelexion.Interface\obj\Release\Intelexion.Interface.dll
+D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\Intelexion.Interface\obj\Release\Intelexion.Interface.xml

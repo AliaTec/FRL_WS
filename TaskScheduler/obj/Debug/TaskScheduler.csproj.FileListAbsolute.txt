@@ -1,0 +1,16 @@
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\bin\Debug\TaskScheduler.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\bin\Debug\TaskScheduler.pdb
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\obj\Debug\ResolveAssemblyReference.cache
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\obj\Debug\TaskScheduler.dll
+C:\Carpeta de Trabajo\Proyectos\ITXV4\Classes\TaskScheduler\obj\Debug\TaskScheduler.pdb
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\TaskScheduler\bin\Debug\TaskScheduler.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\TaskScheduler\bin\Debug\TaskScheduler.pdb
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\TaskScheduler\obj\Debug\ResolveAssemblyReference.cache
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\TaskScheduler\obj\Debug\TaskScheduler.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\TaskScheduler\obj\Debug\TaskScheduler.pdb
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\bin\Debug\TaskScheduler.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\bin\Debug\TaskScheduler.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\bin\Debug\TaskScheduler.pdb
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Debug\TaskScheduler.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Debug\TaskScheduler.pdb

@@ -1,0 +1,34 @@
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.exe
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.pdb
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\InterfaceManager.exe
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\InterfaceManager.pdb
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\InterfaceManager.xml
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\Intelexion.Framework.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\Intelexion.Interface.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\TaskScheduler.dll
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\Intelexion.Interface.pdb
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\Intelexion.Interface.xml
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\TaskScheduler.pdb
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\TaskScheduler.xml
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.frmMain.resources
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.vbproj.GenerateResource.Cache
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.xml
+C:\Carpeta de Trabajo\Proyectos\Frialsa\InterfaseWS\InterfaceManager\bin\InterfaceManager.exe.config
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\InterfaceManager.exe.config
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.exe
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.pdb
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\InterfaceManager.exe
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\InterfaceManager.pdb
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\InterfaceManager.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\Intelexion.Framework.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\TaskScheduler.dll
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\TaskScheduler.pdb
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\TaskScheduler.xml
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.frmMain.resources
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\obj\Debug\InterfaceManager.vbproj.GenerateResource.Cache
+C:\Users\Aliatec-HP\Desktop\InterfaseWS\InterfaceManager\bin\Intelexion.Interface.pdb

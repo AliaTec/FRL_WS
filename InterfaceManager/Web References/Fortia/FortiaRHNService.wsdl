@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://fortia.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://fortia.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://fortia.com/">
+      <s:element name="Altas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTipoMov" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTrab" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApPaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApMaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbBase" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbPago" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaDepto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaPuesto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaClasif" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaRolTurno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTabPre" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaPeriodo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClaRegPat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaCC" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoSal" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueDiario" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueInteg" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueMensual" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaIngreso" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaIngresoEmpresa" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoContrato" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaFormaPago" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaBanco" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CuentaBanco" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LugarNac" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaNac" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sexo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Sindicalizado" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="EdoCivil" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="RFC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoIMSS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CURP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Calle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Colonia" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CodPostal" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ciudad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Telefono" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="EstatusDelTrabajador" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaDeBaja" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NumeroDeCartillaMilitar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nacionalidad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Estatura" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Peso" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="NombredelPadre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NombredelaMadre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisarenCasodeAccidente" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AvisoParentesco" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisoCalle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisoCiudad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AvisoCP" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisoTelefono" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaveRazonsocial" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Plaza" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="EstadoNacimiento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Familiares" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escolaridad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NumInfonavit" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AltasResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reingresos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTipoMov" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTrab" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaMov" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbBase" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbPago" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaCC" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaDepto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaPuesto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaClasif" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClaRegPat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTabPre" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaRolTurno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoSal" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoContrato" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueDiario" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueMensual" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueInteg" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaRazonSocial" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Plaza" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReingresosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReingresosResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Bajas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTipoMov" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTrab" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaMov" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaReal" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BajasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BajasResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CambiosInformacionTrabajador">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTipoMov" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTrab" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApPaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApMaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbBase" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbPago" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaDepto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaPuesto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaClasif" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaRolTurno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTabPre" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaPeriodo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClaRegPat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaCC" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoSal" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueDiario" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueMensual" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueInteg" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaIngreso" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaIngresoEmpresa" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoContrato" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaFormaPago" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaBanco" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CuentaBanco" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Plaza" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="LugarNac" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaNac" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sexo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Sindicalizado" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="EdoCivil" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="RFC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoIMSS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CURP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Calle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Colonia" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CodPostal" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ciudad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Telefono" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="EstatusDelTrabajador" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaDeBaja" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nacionalidad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NombredelPadre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NombredelaMadre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisarenCasodeAccidente" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AvisoParentesco" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisoCalle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisoCiudad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AvisoCP" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AvisoTelefono" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaveRazonsocial" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="NumInfonavit" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CambiosInformacionTrabajadorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CambiosInformacionTrabajadorResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CambiosSueldoTrabajador">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTipoMov" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTrab" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="FechaMov" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbBase" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaUbPago" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaCC" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaDepto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaPuesto" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaClasif" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClaRegPat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaTabPre" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaRolTurno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoSal" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoContrato" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueDiario" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueMensual" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SueInteg" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaRazonSocial" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ClaPeriodo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CambiosSueldoTrabajadorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CambiosSueldoTrabajadorResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AltasSoapIn">
+    <wsdl:part name="parameters" element="tns:Altas" />
+  </wsdl:message>
+  <wsdl:message name="AltasSoapOut">
+    <wsdl:part name="parameters" element="tns:AltasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReingresosSoapIn">
+    <wsdl:part name="parameters" element="tns:Reingresos" />
+  </wsdl:message>
+  <wsdl:message name="ReingresosSoapOut">
+    <wsdl:part name="parameters" element="tns:ReingresosResponse" />
+  </wsdl:message>
+  <wsdl:message name="BajasSoapIn">
+    <wsdl:part name="parameters" element="tns:Bajas" />
+  </wsdl:message>
+  <wsdl:message name="BajasSoapOut">
+    <wsdl:part name="parameters" element="tns:BajasResponse" />
+  </wsdl:message>
+  <wsdl:message name="CambiosInformacionTrabajadorSoapIn">
+    <wsdl:part name="parameters" element="tns:CambiosInformacionTrabajador" />
+  </wsdl:message>
+  <wsdl:message name="CambiosInformacionTrabajadorSoapOut">
+    <wsdl:part name="parameters" element="tns:CambiosInformacionTrabajadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="CambiosSueldoTrabajadorSoapIn">
+    <wsdl:part name="parameters" element="tns:CambiosSueldoTrabajador" />
+  </wsdl:message>
+  <wsdl:message name="CambiosSueldoTrabajadorSoapOut">
+    <wsdl:part name="parameters" element="tns:CambiosSueldoTrabajadorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FortiaRHNServiceSoap">
+    <wsdl:operation name="Altas">
+      <wsdl:input message="tns:AltasSoapIn" />
+      <wsdl:output message="tns:AltasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reingresos">
+      <wsdl:input message="tns:ReingresosSoapIn" />
+      <wsdl:output message="tns:ReingresosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Bajas">
+      <wsdl:input message="tns:BajasSoapIn" />
+      <wsdl:output message="tns:BajasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CambiosInformacionTrabajador">
+      <wsdl:input message="tns:CambiosInformacionTrabajadorSoapIn" />
+      <wsdl:output message="tns:CambiosInformacionTrabajadorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CambiosSueldoTrabajador">
+      <wsdl:input message="tns:CambiosSueldoTrabajadorSoapIn" />
+      <wsdl:output message="tns:CambiosSueldoTrabajadorSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FortiaRHNServiceSoap" type="tns:FortiaRHNServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Altas">
+      <soap:operation soapAction="http://fortia.com/Altas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reingresos">
+      <soap:operation soapAction="http://fortia.com/Reingresos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bajas">
+      <soap:operation soapAction="http://fortia.com/Bajas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambiosInformacionTrabajador">
+      <soap:operation soapAction="http://fortia.com/CambiosInformacionTrabajador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambiosSueldoTrabajador">
+      <soap:operation soapAction="http://fortia.com/CambiosSueldoTrabajador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FortiaRHNServiceSoap12" type="tns:FortiaRHNServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Altas">
+      <soap12:operation soapAction="http://fortia.com/Altas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reingresos">
+      <soap12:operation soapAction="http://fortia.com/Reingresos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bajas">
+      <soap12:operation soapAction="http://fortia.com/Bajas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambiosInformacionTrabajador">
+      <soap12:operation soapAction="http://fortia.com/CambiosInformacionTrabajador" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambiosSueldoTrabajador">
+      <soap12:operation soapAction="http://fortia.com/CambiosSueldoTrabajador" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FortiaRHNService">
+    <wsdl:port name="FortiaRHNServiceSoap" binding="tns:FortiaRHNServiceSoap">
+      <soap:address location="http://localhost/Fortia/FortiaRHNService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FortiaRHNServiceSoap12" binding="tns:FortiaRHNServiceSoap12">
+      <soap12:address location="http://localhost/Fortia/FortiaRHNService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

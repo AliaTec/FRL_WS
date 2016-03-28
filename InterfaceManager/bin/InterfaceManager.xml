@@ -1,0 +1,107 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InterfaceManager
+</name>
+</assembly>
+<members>
+<member name="M:InterfaceManager.Fortia.FortiaRHNService.#ctor(System.String)">
+	<remarks/>
+</member><member name="E:InterfaceManager.Fortia.FortiaRHNService.AltasCompleted">
+	<remarks/>
+</member><member name="E:InterfaceManager.Fortia.FortiaRHNService.ReingresosCompleted">
+	<remarks/>
+</member><member name="E:InterfaceManager.Fortia.FortiaRHNService.BajasCompleted">
+	<remarks/>
+</member><member name="E:InterfaceManager.Fortia.FortiaRHNService.CambiosInformacionTrabajadorCompleted">
+	<remarks/>
+</member><member name="E:InterfaceManager.Fortia.FortiaRHNService.CambiosSueldoTrabajadorCompleted">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.Altas(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Double,System.Double,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginAltas(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Double,System.Double,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EndAltas(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.AltasAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Double,System.Double,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.AltasAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Double,System.Double,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.Reingresos(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginReingresos(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EndReingresos(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.ReingresosAsync(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.ReingresosAsync(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.Bajas(System.Int32,System.Int32,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginBajas(System.Int32,System.Int32,System.Int32,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EndBajas(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BajasAsync(System.Int32,System.Int32,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BajasAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CambiosInformacionTrabajador(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginCambiosInformacionTrabajador(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EndCambiosInformacionTrabajador(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CambiosInformacionTrabajadorAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CambiosInformacionTrabajadorAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CambiosSueldoTrabajador(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginCambiosSueldoTrabajador(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EndCambiosSueldoTrabajador(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CambiosSueldoTrabajadorAsync(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CambiosSueldoTrabajadorAsync(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.FortiaRHNService">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.AltasCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InterfaceManager.Fortia.AltasCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.AltasCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.ReingresosCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InterfaceManager.Fortia.ReingresosCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.ReingresosCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.BajasCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InterfaceManager.Fortia.BajasCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.BajasCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.CambiosInformacionTrabajadorCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InterfaceManager.Fortia.CambiosInformacionTrabajadorCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.CambiosInformacionTrabajadorCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.CambiosSueldoTrabajadorCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InterfaceManager.Fortia.CambiosSueldoTrabajadorCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.CambiosSueldoTrabajadorCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>
