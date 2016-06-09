@@ -31,3 +31,12 @@ C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\ResolveAs
 C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.dll
 C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.xml
 C:\Users\Aliatec-HP\Desktop\InterfaseWS\Intelexion.Interface\obj\Debug\Intelexion.Interface.pdb
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\bin\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\bin\Intelexion.Interface.pdb
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\bin\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\bin\Intelexion.Framework.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\bin\Anthem.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\obj\Debug\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\obj\Debug\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\obj\Debug\Intelexion.Interface.pdb

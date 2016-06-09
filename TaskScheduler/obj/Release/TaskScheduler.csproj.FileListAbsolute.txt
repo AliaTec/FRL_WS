@@ -8,3 +8,6 @@ C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Release\TaskScheduler.
 D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\TaskScheduler\bin\Release\TaskScheduler.dll
 D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\TaskScheduler\obj\Release\ResolveAssemblyReference.cache
 D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\TaskScheduler\obj\Release\TaskScheduler.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\bin\Release\TaskScheduler.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\obj\Release\TaskScheduler.dll

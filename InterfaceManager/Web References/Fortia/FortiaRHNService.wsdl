@@ -258,6 +258,58 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="AltaInfonavit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claEmpresa" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="claTrab" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="tipoMov" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaMovimiento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numeroInfonavit" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="tipoDescuento" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="monto" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaSuspension" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltaInfonavitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AltaInfonavitResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarDatosInfonavit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claEmpresa" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="claTrab" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="tipoMov" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaMovimiento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numeroInfonavit" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="tipoDescuento" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarDatosInfonavitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarDatosInfonavitResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="AltasSoapIn">
@@ -290,6 +342,18 @@
   <wsdl:message name="CambiosSueldoTrabajadorSoapOut">
     <wsdl:part name="parameters" element="tns:CambiosSueldoTrabajadorResponse" />
   </wsdl:message>
+  <wsdl:message name="AltaInfonavitSoapIn">
+    <wsdl:part name="parameters" element="tns:AltaInfonavit" />
+  </wsdl:message>
+  <wsdl:message name="AltaInfonavitSoapOut">
+    <wsdl:part name="parameters" element="tns:AltaInfonavitResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarDatosInfonavitSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarDatosInfonavit" />
+  </wsdl:message>
+  <wsdl:message name="EliminarDatosInfonavitSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarDatosInfonavitResponse" />
+  </wsdl:message>
   <wsdl:portType name="FortiaRHNServiceSoap">
     <wsdl:operation name="Altas">
       <wsdl:input message="tns:AltasSoapIn" />
@@ -310,6 +374,14 @@
     <wsdl:operation name="CambiosSueldoTrabajador">
       <wsdl:input message="tns:CambiosSueldoTrabajadorSoapIn" />
       <wsdl:output message="tns:CambiosSueldoTrabajadorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaInfonavit">
+      <wsdl:input message="tns:AltaInfonavitSoapIn" />
+      <wsdl:output message="tns:AltaInfonavitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDatosInfonavit">
+      <wsdl:input message="tns:EliminarDatosInfonavitSoapIn" />
+      <wsdl:output message="tns:EliminarDatosInfonavitSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="FortiaRHNServiceSoap" type="tns:FortiaRHNServiceSoap">
@@ -359,6 +431,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="AltaInfonavit">
+      <soap:operation soapAction="http://fortia.com/AltaInfonavit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDatosInfonavit">
+      <soap:operation soapAction="http://fortia.com/EliminarDatosInfonavit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="FortiaRHNServiceSoap12" type="tns:FortiaRHNServiceSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -400,6 +490,24 @@
     </wsdl:operation>
     <wsdl:operation name="CambiosSueldoTrabajador">
       <soap12:operation soapAction="http://fortia.com/CambiosSueldoTrabajador" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaInfonavit">
+      <soap12:operation soapAction="http://fortia.com/AltaInfonavit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDatosInfonavit">
+      <soap12:operation soapAction="http://fortia.com/EliminarDatosInfonavit" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

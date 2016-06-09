@@ -14,3 +14,9 @@ C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\bin\Debug\TaskScheduler.pd
 C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Debug\TaskScheduler.dll
 C:\Users\Aliatec-HP\Desktop\InterfaseWS\TaskScheduler\obj\Debug\TaskScheduler.pdb
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\bin\Debug\TaskScheduler.xml
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\bin\Debug\TaskScheduler.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\bin\Debug\TaskScheduler.pdb
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\obj\Debug\TaskScheduler.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\TaskScheduler\obj\Debug\TaskScheduler.pdb

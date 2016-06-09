@@ -2,5 +2,6 @@
 <Configuration>
 	<ConnectionString>Data Source=(local); Initial Catalog=V5Pruebas; User Id=itx; Password=itxaliatec; Connection Lifetime=60; Max Pool Size=100; Min Pool Size=3</ConnectionString>
 	<URLWebService>http://localhost/Fortia/FortiaRHNService.asmx</URLWebService>
-	<LogFile>c:\LogITX_Fortia\Log.txt</LogFile>
+	<LogFile>C:\LogITX_Fortia\Log.txt</LogFile>
+	
 </Configuration>

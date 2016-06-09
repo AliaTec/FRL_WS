@@ -19,3 +19,8 @@ D:\Proyectos\Intelexion\Friansa\FilesInterfaceManager\FilesInterfaceManager\trun
 D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\Intelexion.Interface\obj\Release\ResolveAssemblyReference.cache
 D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\Intelexion.Interface\obj\Release\Intelexion.Interface.dll
 D:\Proyectos\Intelexion\Friansa\InterfaceWS\InterfaseWS\Intelexion.Interface\obj\Release\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Documents\FilesInterfaceManager\FilesInterfaceManager\trunk\bin\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Documents\FilesInterfaceManager\FilesInterfaceManager\trunk\bin\Intelexion.Interface.xml
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\obj\Release\Intelexion.Interface.dll
+C:\Users\Aliatec-HP\Documents\GitHub\FRL_WS\Intelexion.Interface\obj\Release\Intelexion.Interface.xml

@@ -18,6 +18,10 @@ InterfaceManager
 	<remarks/>
 </member><member name="E:InterfaceManager.Fortia.FortiaRHNService.CambiosSueldoTrabajadorCompleted">
 	<remarks/>
+</member><member name="E:InterfaceManager.Fortia.FortiaRHNService.AltaInfonavitCompleted">
+	<remarks/>
+</member><member name="E:InterfaceManager.Fortia.FortiaRHNService.EliminarDatosInfonavitCompleted">
+	<remarks/>
 </member><member name="M:InterfaceManager.Fortia.FortiaRHNService.Altas(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Double,System.Double,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String)">
 	<remarks/>
 </member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginAltas(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Double,System.Double,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
@@ -68,6 +72,26 @@ InterfaceManager
 	<remarks/>
 </member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CambiosSueldoTrabajadorAsync(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Object)">
 	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.AltaInfonavit(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Double,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginAltaInfonavit(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Double,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EndAltaInfonavit(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.AltaInfonavitAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Double,System.String)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.AltaInfonavitAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Double,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EliminarDatosInfonavit(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.BeginEliminarDatosInfonavit(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EndEliminarDatosInfonavit(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EliminarDatosInfonavitAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:InterfaceManager.Fortia.FortiaRHNService.EliminarDatosInfonavitAsync(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Object)">
+	<remarks/>
 </member><member name="M:InterfaceManager.Fortia.FortiaRHNService.CancelAsync(System.Object)">
 	<remarks/>
 </member><member name="T:InterfaceManager.Fortia.FortiaRHNService">
@@ -101,6 +125,18 @@ InterfaceManager
 </member><member name="P:InterfaceManager.Fortia.CambiosSueldoTrabajadorCompletedEventArgs.Result">
 	<remarks/>
 </member><member name="T:InterfaceManager.Fortia.CambiosSueldoTrabajadorCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.AltaInfonavitCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InterfaceManager.Fortia.AltaInfonavitCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.AltaInfonavitCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.EliminarDatosInfonavitCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InterfaceManager.Fortia.EliminarDatosInfonavitCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InterfaceManager.Fortia.EliminarDatosInfonavitCompletedEventArgs">
 	<remarks/>
 </member>
 </members>

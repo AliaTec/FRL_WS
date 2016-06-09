@@ -19,6 +19,10 @@ Module ModuloPrincipal
                     Interfase(4)
                 Case "5"
                     Interfase(5)
+                Case "6"
+                    Interfase(6)
+                Case "7"
+                    Interfase(7)
                 Case Else
             End Select
             Application.Exit()
@@ -95,6 +99,9 @@ Module ModuloPrincipal
         Dim Familiares As String = ""
         Dim Escolaridad As String = ""
         Dim NumInfonavit As String = ""
+        Dim TipoDescuento As Integer
+        Dim Monto As Double
+        Dim FechaSuspension As String
 
   
         Try
@@ -476,6 +483,101 @@ Module ModuloPrincipal
 
                         writeLogEntry(Operacion, descripcionMovimiento, exito, mensaje)
                         writeLogEntry_SP(Operacion, descripcionMovimiento, exito, mensaje, Empleado, conn)
+                    Next i
+
+                Case 6
+                    'Alta Infonavit
+                    'TO DO:Obtener los movimientos, asignar los valores a las variables que se mandan en cada caso y mandar llamar el servicio
+                    'para cada registro obtenido
+
+                    Dim da As New SqlClient.SqlDataAdapter("sp_interfazFortia_AltaInfonavit", conn)
+                    da.SelectCommand.CommandType = CommandType.StoredProcedure
+                    da.Fill(ds)
+                    contador = ds.Tables(0).Rows.Count.ToString
+                    Dim r As Integer
+                    r = contador
+
+
+                    For i As Integer = 0 To contador - 1
+
+                        ClaTipoMov = Integer.Parse(ds.Tables(0).Rows(i)(0).ToString())
+                        ClaTrab = Integer.Parse(ds.Tables(0).Rows(i)(1).ToString())
+                        ClaEmpresa = Integer.Parse(ds.Tables(0).Rows(i)(2).ToString())
+                        FechaMov = ds.Tables(0).Rows(i)(3).ToString()
+                        NumInfonavit = ds.Tables(0).Rows(i)(4).ToString()
+                        TipoDescuento = Integer.Parse(ds.Tables(0).Rows(i)(5).ToString())
+                        Monto = Double.Parse(ds.Tables(0).Rows(i)(6).ToString())
+                        FechaSuspension = ds.Tables(0).Rows(i)(7).ToString()
+
+
+
+                        'proxy.Bajas(ClaTipoMov, ClaTrab, ClaEmpresa, FechaMov, FechaReal)
+
+                        response = proxy.AltaInfonavit(ClaEmpresa, ClaTrab, ClaTipoMov, FechaMov, NumInfonavit, TipoDescuento, Monto, FechaSuspension)
+
+                        If Not (response Is Nothing) Then
+                            If response.SelectSingleNode("//Exito").InnerText = "1" Then
+                                exito = True
+                            Else
+                                exito = False
+                            End If
+                            mensaje = response.SelectSingleNode("//Mensaje").InnerText
+                        Else
+                            exito = False
+                            mensaje = "Error, no se obtuvo respuesta"
+                        End If
+                        Operacion = "AltaInfonavit"
+                        Empleado = ClaTrab.ToString()
+                        descripcionMovimiento = "ClaEmpresa=" + ClaEmpresa.ToString() + ",ClaTrab=" + ClaTrab.ToString() + ",ClaTipoMov=" + ClaTipoMov.ToString() + ",FechaMov=" + FechaMov.ToString() + ",NumInfonavit=" + NumInfonavit.ToString() + ",TipoDescuento=" + TipoDescuento.ToString() + ",Monto=" + Monto.ToString() + "FechaSuspension=" + FechaSuspension.ToString()
+                        writeLogEntry(Operacion, descripcionMovimiento, exito, mensaje)
+                        writeLogEntry_SP(Operacion, descripcionMovimiento, exito, mensaje, Empleado, conn)
+
+                    Next i
+
+                Case 7
+                    'Elimina Infonavit
+                    'TO DO:Obtener los movimientos, asignar los valores a las variables que se mandan en cada caso y mandar llamar el servicio
+                    'para cada registro obtenido
+                    '(ByVal claEmpresa As Integer, ByVal claTrab As Integer, ByVal tipoMov As Integer, ByVal fechaMovimiento As String, ByVal numeroInfonavit As String, ByVal tipoDescuento As Integer)
+                    Dim da As New SqlClient.SqlDataAdapter("sp_interfazFortia_EliminaInfonavit", conn)
+                    da.SelectCommand.CommandType = CommandType.StoredProcedure
+                    da.Fill(ds)
+                    contador = ds.Tables(0).Rows.Count.ToString
+                    Dim r As Integer
+                    r = contador
+
+
+                    For i As Integer = 0 To contador - 1
+
+                        ClaTipoMov = Integer.Parse(ds.Tables(0).Rows(i)(0).ToString())
+                        ClaTrab = Integer.Parse(ds.Tables(0).Rows(i)(1).ToString())
+                        ClaEmpresa = Integer.Parse(ds.Tables(0).Rows(i)(2).ToString())
+                        FechaMov = ds.Tables(0).Rows(i)(3).ToString()
+                        NumInfonavit = ds.Tables(0).Rows(i)(4).ToString()
+                        TipoDescuento = Integer.Parse(ds.Tables(0).Rows(i)(5).ToString())
+
+
+                        'proxy.Bajas(ClaTipoMov, ClaTrab, ClaEmpresa, FechaMov, FechaReal)
+
+                        response = proxy.EliminarDatosInfonavit(ClaEmpresa, ClaTrab, ClaTipoMov, FechaMov, NumInfonavit, TipoDescuento)
+
+                        If Not (response Is Nothing) Then
+                            If response.SelectSingleNode("//Exito").InnerText = "1" Then
+                                exito = True
+                            Else
+                                exito = False
+                            End If
+                            mensaje = response.SelectSingleNode("//Mensaje").InnerText
+                        Else
+                            exito = False
+                            mensaje = "Error, no se obtuvo respuesta"
+                        End If
+                        Operacion = "EliminaInfonavit"
+                        Empleado = ClaTrab.ToString()
+                        descripcionMovimiento = "ClaEmpresa=" + ClaEmpresa.ToString() + ",ClaTrab=" + ClaTrab.ToString() + ",ClaTipoMov=" + ClaTipoMov.ToString() + ",FechaMov=" + FechaMov.ToString() + ",NumInfonavit=" + NumInfonavit.ToString() + ",TipoDescuento=" + TipoDescuento.ToString()
+                        writeLogEntry(Operacion, descripcionMovimiento, exito, mensaje)
+                        writeLogEntry_SP(Operacion, descripcionMovimiento, exito, mensaje, Empleado, conn)
+
                     Next i
             End Select
 
